@@ -35,7 +35,7 @@ public class BorderB extends javax.swing.JPanel {
         g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
         GradientPaint gra = new GradientPaint(0, 0, new Color(255, 255, 255), 0, getHeight(), new Color(255, 255, 255));
         g2.setPaint(gra);
-        g2.fillRoundRect(0, 0, getWidth(), getHeight(), 60, 60);
+        g2.fillRoundRect(0, 0, getWidth(), getHeight(), 30, 30);
         super.paintComponent(grphcs);
     }
 

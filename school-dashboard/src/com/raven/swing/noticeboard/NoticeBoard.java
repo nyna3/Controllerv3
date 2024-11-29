@@ -28,7 +28,7 @@ public class NoticeBoard extends javax.swing.JPanel {
         panel.add(time, "gap 10, wrap");
         JTextPane txt = new JTextPane();
         txt.setBackground(new Color(0, 0, 0, 0));
-        txt.setForeground(new Color(120, 120, 120));
+        txt.setForeground(new Color(21, 21, 21));
         txt.setSelectionColor(new Color(150, 150, 150));
         txt.setBorder(null);
         txt.setOpaque(false);
